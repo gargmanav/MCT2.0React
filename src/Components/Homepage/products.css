@@ -1,0 +1,104 @@
+/* 
+.container1{
+    height:40vh;
+}
+.right1{
+    width: 20%;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 50%;
+    justify-content: space-around;
+    padding-left: 20px;
+    overflow-y: scroll;
+}
+.left1 div{
+    margin: 25px;
+}
+.caty{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: .5px solid rgb(39, 37, 37);
+}
+li a{
+    color: blue;
+}
+.container1{
+    height:40vh;
+    width: 50vw;
+}
+.right1{
+    width: 20%;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 50%;
+    justify-content: space-around;
+    padding-left: 20px;
+    overflow-y: scroll;
+}
+.left1 div{
+    margin: 25px;
+}
+.caty{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: .5px solid rgb(39, 37, 37);
+}
+li a{
+    color: blue;
+}
+.mainproductcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 200px;
+    border: 2px solid black;
+
+} */
+
+.mainproductcontainer{
+   margin-top: 180px;
+   margin-left: 150px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 900px;
+    height: 200px;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+    position:  static;
+
+}
+.caty{
+    
+    height: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.cardLink{
+    color: blue;
+}

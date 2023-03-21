@@ -1,0 +1,17 @@
+.fullcontact{ 
+
+    text-align: center;
+color: white;
+    height: 100vh; /* change this to whatever else fits your case*/
+        background-size: cover;
+        overflow: auto;
+        background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); 
+}
+.subcontact h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
