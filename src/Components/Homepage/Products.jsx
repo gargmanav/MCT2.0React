@@ -27,7 +27,7 @@ dispatch(getPosts());
   },[caty])
 
   async function catyHandler(ele){
-    const res= await fetch(`https://cors-anywhere.herokuapp.com/https://fakestoreapi.com/products/category/${ele}`)
+    const res= await fetch(`https://fakestoreapi.com/products/category/${ele}`)
     const data=await res.json();
     setdata(data);
     setstate(!state)
