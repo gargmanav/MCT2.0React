@@ -39,10 +39,10 @@ const Users = () => {
           <label><input type="radio" name='gender' value="female" onChange={handleGenderChange} checked={selectedGender === 'female'} />Female</label>
         </div>
         <div className='subnavuser'>
-          <span className='imagewala'>IMAGE</span>
-          <span className='namewala'>NAME</span>
-          <span className='emailwala'>EMAIL</span>
-          <span className='genderwala'>GENDER</span>
+          <span>IMAGE</span>
+          <span>NAME</span>
+          <span>EMAIL</span>
+          <span>GENDER</span>
         </div>
         {genderResult.results.map((ele) => (
           <div className='cards' key={ele.login.uuid}>
