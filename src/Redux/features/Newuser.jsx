@@ -1,7 +1,7 @@
 import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 
 export const getPosts = createAsyncThunk("posts/getPosts", async ()=>{
-    return fetch(`https://cors-anywhere.herokuapp.com/https://fakestoreapi.com/products/categories`).then((res)=>
+    return fetch(`https://fakestoreapi.com/products/categories`).then((res)=>
     res.json()
     );
 });
